@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.topheader {
+  min-width: 100%;
+  height: 3rem;
+  background-color: "white";
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 250px;
+  height: 65px;
+  margin-top: 10px;
+}
+
+.Nav_item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.SearchInput {
+  padding: 5px;
+  border: 1px solid #275e9d;
+  width: 260px;
+}
+
+.SearchButton {
+  padding-inline: 10px;
+  color: #fff;
+  border-color: #275e9d;
+  background-color: #275e9d;
+}
+
+.SearchButton:hover {
+  background-color: #0056b3;
+}
+
+/*   bottom navigation items  */
+
+.Bottom_Nav_items {
+  width: 80%;
+  height: 6rem;
+  background-color: "white";
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Right_Bottom_Nav_items nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-top: 22px;
+}
+
+.Right_Bottom_Nav_items nav ul li {
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.Right_Bottom_Nav_items nav ul li button {
+  border: none;
+  outline: none;
+  background: white;
+  color: #275e9d;
+  font-size: 1rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: "raleway", "Avenir", "Arial", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.Right_Bottom_Nav_items nav ul li button:hover {
+  border-bottom: 3px solid #183c65;
+}
+
+.leftBottom_Nav_items ul {
+  display: flex;
+  flex-direction: row;
+  padding-top: 22px;
+}
+
+.leftBottom_Nav_items ul li {
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.leftBottom_Nav_items ul li button {
+  border: none;
+  outline: none;
+  background: white;
+  color: #275e9d;
+  font-size: 1rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: "raleway", "Avenir", "Arial", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.leftBottom_Nav_items ul li button:hover {
+  border-bottom: 3px solid #183c65;
+}
+
+.dropdownContent {
+  position: absolute;
+  width: 17%;
+  background-color: #f3f3f3;
+  z-index: 2;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-top: 28px;
+  margin-left: -35px;
+}
+
+.dropdownContent ul {
+  width: "100%";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove default padding */
+}
+
+.dropdownContent ul li {
+  width: "100%";
+  padding: 20px;
+  font-family: "raleway", "Avenir", "Arial", sans-serif;
+}
+
+.dropdownContent ul li:hover {
+  background-color: #ddd5d5;
+  cursor: pointer;
+}

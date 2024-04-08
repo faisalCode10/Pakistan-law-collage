@@ -1,0 +1,159 @@
+.MainDiv {
+    width: 100%;
+    height: 40vh;
+    background-color: #f3f3f3;
+    position: absolute;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card{
+    width: auto;
+    height: auto;
+    background-color: #00356b;
+  };
+    
+
+  .card img{
+    width: auto;
+    height: auto;
+  }
+
+  .card h3, p, a{
+    font-weight: 700;
+    font: 700 1rem playfair, Times, serif;
+    line-height: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 1rem;
+    margin-left: 10px;
+  }
+
+  .card  p{
+    font-weight: 700;
+    font: 700 13px playfair, Times, serif;
+    line-height: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 1rem;
+    margin-left: 10px;
+  }
+
+
+  .card a{
+    margin-left: 0px;
+    text-decoration: none;
+  }
+
+  .card a:hover{
+   border-bottom: 1px solid white;
+  }
+
+  .APPLY{
+    width: auto;
+    height: auto;
+  }
+
+  .APPLY h3{
+    color: #666;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 10px;
+  }
+
+  .APPLY h4{
+    color: #275e9d;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+  }
+
+  .APPLY h4 a{
+    color: #275e9d;
+   text-decoration: none;
+  }
+
+  .APPLY h4 a:hover{
+    border-bottom: 1px solid #275e9d;
+    
+  }
+
+  .RESOURCES_SUPPORT{
+    width: auto;
+    height: auto;
+  }
+
+  .RESOURCES_SUPPORT h3{
+    color: #666;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 10px;
+  }
+
+  
+  .RESOURCES_SUPPORT h4{
+    color: #275e9d;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+  }
+
+  .RESOURCES_SUPPORT h4 a{
+    color: #275e9d;
+    text-decoration: none;
+  }
+
+  .RESOURCES_SUPPORT h4 a:hover{
+    border-bottom: 1px solid #275e9d;
+  }
+
+  .LIBRARY{
+    width: auto;
+    height: auto;
+  }
+
+  .LIBRARY h3{
+    color: #666;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 10px;
+  }
+
+  
+  .LIBRARY h4{
+    color: #275e9d;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+  }
+
+  .LIBRARY h4 a{
+    color: #275e9d;
+    text-decoration: none;
+  }
+
+  .LIBRARY h4 a:hover{
+    border-bottom: 1px solid #275e9d;
+  }
