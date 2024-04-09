@@ -6,7 +6,7 @@
 .footer-container{
     width: 100%;
     height: 100%;
-    background-color: blue;
+    background-color: #00356b;
 }
 .footer-navbar{
     display: flex;
@@ -34,4 +34,20 @@ h2{
 
 .footer-icon{
     padding-top: 20px;
+}
+
+.footer-adress{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-social-media{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: space-between;
 }
