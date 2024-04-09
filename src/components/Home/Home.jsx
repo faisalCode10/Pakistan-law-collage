@@ -194,29 +194,69 @@ const Home = () => {
       <div className={STYLESHEET.Events}>
         <Events datemonth={"22"}
           datenumber={"MAR"} titile={"Lattes with Librarians"} time={"2:00PM - 4:00PM"} />
-            <Events datemonth={"22"}
+        <Events datemonth={"22"}
           datenumber={"MAR"} titile={"YLCF Friday Fellowship - open to all!"} time={"1:10PM - 4:00PM"} />
-            <Events datemonth={"22"}
+        <Events datemonth={"22"}
           datenumber={"MAR"} titile={"Spring recess ends; classes resume, 8:10 a.m."} time={"All Day"} />
-            <Events datemonth={"22"}
+        <Events datemonth={"22"}
           datenumber={"MAR"} titile={" Finding Law: A Lillian Goldman Law Library Rare Book Exhibit"} time={"All Day"} />
-            <Events datemonth={"22"}
+        <Events datemonth={"22"}
           datenumber={"MAR"} titile={"At Gotham: Law School at 200 - A Rare Book Exhibit"} time={" All Day"} />
-            <Events datemonth={"22"}
+        <Events datemonth={"22"}
           datenumber={"MAR"} titile={"40 per transaction charge for late change to schedules."} time={"All Day"} />
       </div>
-    
-     
-     
-     <div className={STYLESHEET.BotttomSecondlast}>
 
-<div className={STYLESHEET.leftone}>
-  <div className={STYLESHEET.divonelef}>one</div>
-  <div className={STYLESHEET.divtwoleft}>two</div>
-</div>
-<div className={STYLESHEET.rightone}></div>
 
-     </div>
+
+      <div className={STYLESHEET.BotttomSecondlast}>
+      <div className={STYLESHEET.overlay}></div>
+        <div className={STYLESHEET.leftone}>
+          <div className={STYLESHEET.content}>
+            <div className={STYLESHEET.divoneleft} style={{ backgroundImage: `url(${HeaderIcons.calloutone})` }}>
+              <div className={STYLESHEET.InsideHedingtop}>
+                <p>28 Years of Excellence / Since 1996</p>
+                <h1>PCL National Annual Moot Court Competition 2024</h1>
+              </div>
+
+              <div className={STYLESHEET.hedingshow}>
+                <p>28 Years of Excellence / Since 1996</p>
+                <h1>PCL National Annual Moot Court Competition 2024</h1>
+              </div>
+
+
+              <div className={STYLESHEET.summery}>
+                <p>What started as a tiny school by necessity remains small by design to this day.
+                  We ensure the next generation of lawyers and leaders step into the world with bold
+                  ideas, diverse perspectives, and limitless energy to tackle the pressing challenges
+                  they face.</p>
+              </div>
+
+
+            </div>
+            <div className={STYLESHEET.divtwoleft} style={{ backgroundImage: `url(${HeaderIcons.callouttwo})` }}>
+            <div className={STYLESHEET.InsideHedingtop}>
+                <p>28 Years of Excellence / Since 1996</p>
+                <h1>Beyond Representation: How to Achieve Meaningful Participation of Women in Legal Sector</h1>
+              </div>
+
+              <div className={STYLESHEET.hedingshow}>
+                <p>28 Years of Excellence / Since 1996</p>
+                <h1>Beyond Representation: How to Achieve Meaningful Participation of Women in Legal Sector</h1>
+              </div>
+
+
+              <div className={STYLESHEET.summery}>
+                <p>What started as a tiny school by necessity remains small by design to this day.
+                  We ensure the next generation of lawyers and leaders step into the world with bold
+                  ideas, diverse perspectives, and limitless energy to tackle the pressing challenges
+                  they face.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={STYLESHEET.rightone}></div>
+
+      </div>
 
 
     </div>

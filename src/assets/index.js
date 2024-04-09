@@ -23,7 +23,8 @@ import Stripone from "../assets/icons/strip-1.png";
 import Striptwo from "../assets/icons/strip-2.png";
 import Stripthree from "../assets/icons/strip-3.png";
 import Stripfour from "../assets/icons/strip-4.png";
-
+import calloutone from "../assets/icons/callout-1.jpg";
+import callouttwo from "../assets/icons/callout-2.jpg";
 export const HeaderIcons = {
   headericon: icon,
   Cardprogramsimage: Cardprograms,
@@ -49,5 +50,7 @@ export const HeaderIcons = {
   Stripone:Stripone,
   Striptwo:Striptwo,
   Stripthree:Stripthree,
-  Stripfour:Stripfour
+  Stripfour:Stripfour,
+  calloutone:calloutone,
+  callouttwo:callouttwo
 };

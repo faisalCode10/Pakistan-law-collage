@@ -470,9 +470,17 @@ margin-top: -8px;
 
 
 /*   BotttomSecondlast desin div */
-
-
-.BotttomSecondlast{
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Add transition for smooth appearance */
+}
+.BotttomSecondlast {
   width: 100%;
   height: 100vh;
   padding-bottom: 10%;
@@ -481,30 +489,136 @@ margin-top: -8px;
   flex-direction: row;
 }
 
-.leftone{
-
+.leftone {
   width: 80%;
   height: auto;
-  padding-bottom: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  background-color: #0b4065;
 }
 
-.rightone{
+.rightone {
   background-color: #e3dbdb;
   width: 20%;
-  height: auto;
+  height: 80vh;
+  z-index: -2;
 }
 
-.divoneleft{
-width: 50%;
-background-color: rgb(0, 0, 0);
-height: 40vh;
+.content{
+  width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-left: 6rem;
+    margin-top: 5rem;
 }
 
-.divtwoeft{
-  width: 50%;
-  background-color: green;
-  height: 40vh;
+.divoneleft {
+  width: 80%;
+  height: 55vh;
+  background: cover;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  transition: margin-top 0.3s ease, opacity 0.3s ease;
 }
+
+.divtwoleft {
+  width: 80%;
+  height: 55vh;
+  background: cover;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  transition: margin-top 0.3s ease, opacity 0.3s ease;
+}
+
+.InsideHedingtop{
+  margin-left: 2rem;
+  margin-top: -9rem;
+}
+.InsideHedingtop h1{
+  font-family: playfair, Times, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.33;
+  color: white;
+}
+
+.InsideHedingtop p{
+  font-size: 1.2rem;
+    line-height: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.hedingshow{
+  margin-left: 2rem;
+  margin-top: 18rem;
+  transition: margin-top 0.3s ease, opacity 0.3s ease;
+  opacity: 1;
+}
+
+.hedingshow h1{
+  font-family: playfair, Times, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.33;
+  color: white;
+}
+
+
+.hedingshow h1 p{
+  font-size: 1.2rem;
+    line-height: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+.summery{
+  margin-top: 16rem;
+  width: 85%;
+  margin-left: 1.5rem;
+}
+
+.summery p{
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: raleway, Avenir, Arial, sans-serif;
+}
+
+
+.divoneleft:hover{
+  opacity: 0.9; 
+}
+.divoneleft:hover .hedingshow{
+  display: none;
+}
+
+.divoneleft:hover .InsideHedingtop{
+  margin-top: 2rem;
+}
+
+.divoneleft:hover .summery{
+  margin-top: 5rem;
+}
+
+
+.divtwoleft:hover {
+  opacity: 0.6; /* Adjust the opacity level as needed */
+}
+
+.divtwoleft:hover .hedingshow {
+  display: none;
+}
+
+.divtwoleft:hover .InsideHedingtop {
+  margin-top: 2rem;
+}
+
+.divtwoleft:hover .summery {
+  margin-top: 5rem;
+}
+
