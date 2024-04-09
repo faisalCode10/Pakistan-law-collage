@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import Card from "./component/Card";
 import Image_Wth_Text from "./component/Image_Wth_Text";
 import { Events } from "./component/Events";
+import ContactUs from "../Contact-us/ContactUs";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -209,7 +211,7 @@ const Home = () => {
 
 
       <div className={STYLESHEET.BotttomSecondlast}>
-      <div className={STYLESHEET.overlay}></div>
+        <div className={STYLESHEET.overlay}></div>
         <div className={STYLESHEET.leftone}>
           <div className={STYLESHEET.content}>
             <div className={STYLESHEET.divoneleft} style={{ backgroundImage: `url(${HeaderIcons.calloutone})` }}>
@@ -234,7 +236,7 @@ const Home = () => {
 
             </div>
             <div className={STYLESHEET.divtwoleft} style={{ backgroundImage: `url(${HeaderIcons.callouttwo})` }}>
-            <div className={STYLESHEET.InsideHedingtop}>
+              <div className={STYLESHEET.InsideHedingtop}>
                 <p>28 Years of Excellence / Since 1996</p>
                 <h1>Beyond Representation: How to Achieve Meaningful Participation of Women in Legal Sector</h1>
               </div>
@@ -258,7 +260,11 @@ const Home = () => {
 
       </div>
 
-
+      <div>
+        <h1 style={{textAlign:'center'}}>Connect With Us</h1>
+        <ContactUs />
+        <Footer />
+      </div>
     </div>
   );
 };
